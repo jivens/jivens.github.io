@@ -20,7 +20,7 @@ $ docker-compose up
 
 ```
 
-This will start the first build of the repo on your machine.  It will take some time to build, because it's doing a lot!  But after the first build, it'll be much quicker.  There will also be a lot of little messages that fly past you on screen.  As long as none of them say 'ERROR exited with code 1' or similar, it's all good. 
+    - This will start the first build of the repo on your machine.  It will take some time to build, because it's doing a lot!  But after the first build, it'll be much quicker.  There will also be a lot of little messages that fly past you on screen.  As long as none of them say 'ERROR exited with code 1' or similar, it's all good. 
 
 4. At the end of a successful up, you'll see the following stuff:
 
@@ -46,7 +46,7 @@ $ code .
 
 ```
 
-and you'll be able to access and edit files in all of these above components in the repo.  Docker supports hot-reloading, meaning that if you change files in the repo, you'll see your browser refresh and you'll see your changes locally. 
+    - and you'll be able to access and edit files in all of these above components in the repo.  Docker supports hot-reloading, meaning that if you change files in the repo, you'll see your browser refresh and you'll see your changes locally. 
 
 8.  To exit, type this at the command line:
 
