@@ -24,11 +24,11 @@ This will start the first build of the repo on your machine.  It will take some 
 
 4. At the end of a successful up, you'll see the following stuff:
 
-` 
+``` 
 colrc-v2-frontend | Search for the keywords to learn more about each warning.
 colrc-v2-frontend | To ignore, add // eslint-disable-next-line to the line before.
+```
 
-`
 5.  In your docker desktop app, you'll see one entry under `Containers / Apps`, and it'll be called `colrc-v2`, and it'll be listed as 'running'.  You'll also see at least the following images:
 
     - colrc-v2_frontend
