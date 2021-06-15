@@ -4,6 +4,10 @@
     - if you go through this as a manual process, you'll be directed to the windows store to download a linux version.  We're using Debian for our project. Please pick this one.
     - running Docker requires elevated privileges (root) on your machine.  In Mac and Linux world, this is easy, but Windows can make it hard.  You will need to get familiar with running i.e. powershell as an admin.
     - one of the silliest but most pervasive problems with Windows is that it really really wants to use CRLF line endings (carriage return + line feed) rather than LF (line feed).  VS Code has a handy feature on the bottom right of any window that lets you change line endings easily.  You may have to use it.  :slightly_smiling_face:
+    - Once you are done, you will see this on your task bar:
+    ![Notice the Red Debian Icon on the Windows TaskBar](/assets/images/DebianToolBar.PNG)
+    and this is your window:
+    ![Looks just like a command window](/assets/images/DebianShell.PNG)
 4. [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). If on Windows, install from the Debian shell window.
 5. Add your user credentials that you supplied to git to sign up
 ```
