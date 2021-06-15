@@ -12,7 +12,6 @@
 $ docker run -d -p 80:80 docker/getting-started
 
 ```
-
 3. Once you've git cloned our colrc-v2 repo, at the command line, navigate into the folder colrc-v2 and use this command to launch our dev environment.  
 
 ```
@@ -20,24 +19,25 @@ $ docker-compose up
 
 ```
 
-    - This will start the first build of the repo on your machine.  It will take some time to build, because it's doing a lot!  But after the first build, it'll be much quicker.  There will also be a lot of little messages that fly past you on screen.  As long as none of them say 'ERROR exited with code 1' or similar, it's all good. 
+4. This will start the first build of the repo on your machine.  It will take some time to build, because it's doing a lot!  But after the first build, it'll be much quicker.  There will also be a lot of little messages that fly past you on screen.  As long as none of them say 'ERROR exited with code 1' or similar, it's all good. 
 
-4. At the end of a successful up, you'll see the following stuff:
+5. At the end of a successful up, you'll see the following stuff:
 
 ``` 
 colrc-v2-frontend | Search for the keywords to learn more about each warning.
 colrc-v2-frontend | To ignore, add // eslint-disable-next-line to the line before.
+
 ```
 
-5.  In your docker desktop app, you'll see one entry under `Containers / Apps`, and it'll be called `colrc-v2`, and it'll be listed as 'running'.  You'll also see at least the following images:
+6.  In your docker desktop app, you'll see one entry under `Containers / Apps`, and it'll be called `colrc-v2`, and it'll be listed as 'running'.  You'll also see at least the following images:
 
-    - colrc-v2_frontend
-    - colrc-v2_nginx
-    - colrc-v2_backend
-    - postgres
-    - hasura/graphql-engine
+    - `colrc-v2_frontend`
+    - `colrc-v2_nginx`
+    - `colrc-v2_backend`
+    - `postgres`
+    - `hasura/graphql-engine`
 
-6.  Point your web browser to localhost:3000 and you'll see the front page of our app.
+6.  Point your web browser to `http://localhost:3000` and you'll see the front page of our app.
 
 7.  from your command line, you can now type the command to launch VSCode  
 
@@ -46,9 +46,9 @@ $ code .
 
 ```
 
-    - and you'll be able to access and edit files in all of these above components in the repo.  Docker supports hot-reloading, meaning that if you change files in the repo, you'll see your browser refresh and you'll see your changes locally. 
+8. You'll now be able to access and edit files in all of these above components in the repo.  Docker supports hot-reloading, meaning that if you change files in the repo, you'll see your browser refresh and you'll see your changes locally. 
 
-8.  To exit, type this at the command line:
+9.  To exit, type this at the command line:
 
 ```
 $ docker-compose down
