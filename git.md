@@ -80,3 +80,41 @@ $ git status
 <br/>
 After which you should see something like this:
 ![git status](/assets/images/GitStatus.PNG)<br/>
+
+- The files in red have not been committed.
+- The branch should be `hasura` for now.
+- If there are files in green, they have been committed and are waiting to be pushed.
+- Any files that have been modified or added can be saved by using `git add <file>`.
+- Any files that have been deleted can be removed by using `git rm <file>`.
+</br>
+In this case, I would type these commands:
+```
+$ git add .gitignore
+$ git add nginx/Dockerfile
+$ git rm nginx/assets/build/config/sites-enabled/default
+$ git add nginx/entrypoint.sh
+```
+<br/>
+Now typing `git status` returns this information:
+![git status after adding and removing files](/assets/images/GitStatusReadyToCommit.PNG)<br/>
+
+To commit to the repo and add a meaningful commit message, type something like this:
+```
+git commit -m "Ignored node_modules, removed old default site for nginx, entrypoint.sh copies audio and text files"
+```
+<br/>
+If you try this and you haven't set your git credentials, you will see this message:
+![git commit without credentials](/assets/images/GitCommitFailed.PNG)<br/>
+
+After fixing that, you should see a success:
+![git commit](/assets/images/GitCommitSuccess.PNG)<br/>
+
+And now you should be able to push:
+```
+git push
+```
+<br/>
+And you should see:
+![git push](/assets/images/GitPush.PNG)<br/>
+Note that you may get a message that some modules are out of compliance with security concerns. You can ignore that for now.
+
