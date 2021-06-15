@@ -44,6 +44,8 @@ $ git clone --branch hasura https://github.com/arizona-linguistics/colrc-v2.git
     $ cd colrc-v2
     $ code .
     ```
+    <br/>
     After this, you may be prompted to install some code. Just follow the prompts.<br/>
+
     - You should see a window that looks like this:
-    
+    ![Looks just like a command window](/assets/images/vscode-colrc-v2.png)<br/>
