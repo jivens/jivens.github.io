@@ -118,3 +118,17 @@ And you should see:
 ![git push](/assets/images/GitPush.PNG)<br/>
 Note that you may get a message that some modules are out of compliance with security concerns. You can ignore that for now.
 
+# Altering the frontend code
+
+- We need two people (at least) working together and altering the code to see the potential conflicts that can arise from multiple people working on code. The plan here is:
+- First of all, you want to make sure that each person has run `docker-compose up` to start the docker container.
+- Person 1 checks out and changes the frontend code
+![person 1 code view add](/assets/images/codeViewAdd.PNG)<br/>
+![person 1 page view add](/assets/images/pageViewAdd.PNG)<br/>
+- Person 2 will check out and change the frontend code
+
+- Person 1 will `git add`, `git commit`, and `git push` changes to the code
+- Person 2 will `git add`, `git commit`, and try to `git push` changes to the code
+- Conflicts will arise. Person 2 needs to `git pull` the frontend code.
+- Now person 1 sees `merge conflicts` in the code because 2 people have edited the same file. These conflicts must be resolved. Looking in the editor shows the conflicts and how to resolve them.
+
