@@ -134,7 +134,7 @@ Note that you may get a message that some modules are out of compliance with sec
 - Now person 1 sees `merge conflicts` in the code because 2 people have edited the same file. These conflicts must be resolved. Looking in the editor shows the conflicts and how to resolve them.
 
 ![git push fail](/assets/images/GitPushFail.PNG)<br/>
-![git change diff](/assets/images/GitChangeDiff.PNG)<br/>
+![code change diff](/assets/images/CodeChangeDiff.PNG)<br/>
 ![git code merge conflict](/assets/images/gitCodeMergeConflict.PNG)<br/>
 ![code change view](/assets/images/CodeChangeView.PNG)<br/>
 ![code page add auto merge](/assets/images/codePageAddAutoMerge.PNG)<br/>
