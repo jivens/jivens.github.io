@@ -126,9 +126,18 @@ Note that you may get a message that some modules are out of compliance with sec
 ![person 1 code view add](/assets/images/codeViewAdd.PNG)<br/>
 ![person 1 page view add](/assets/images/pageViewAdd.PNG)<br/>
 - Person 2 will check out and change the frontend code
-
+![person 2 code view add](/assets/images/codeViewAdd2.PNG)<br/>
+![person 2 page view add](/assets/images/pageViewAdd2.PNG)<br/>
 - Person 1 will `git add`, `git commit`, and `git push` changes to the code
 - Person 2 will `git add`, `git commit`, and try to `git push` changes to the code
 - Conflicts will arise. Person 2 needs to `git pull` the frontend code.
 - Now person 1 sees `merge conflicts` in the code because 2 people have edited the same file. These conflicts must be resolved. Looking in the editor shows the conflicts and how to resolve them.
 
+![git push fail](/assets/images/GitPushFail.PNG)<br/>
+![git change diff](/assets/images/GitChangeDiff.PNG)<br/>
+![git code merge conflict](/assets/images/gitCodeMergeConflict.PNG)<br/>
+![code change view](/assets/images/CodeChangeView.PNG)<br/>
+![code page add auto merge](/assets/images/codePageAddAutoMerge.PNG)<br/>
+![merge conflict code](/assets/images/mergeConflictCode.PNG)<br/>
+![git auto merge](/assets/images/GitAutoMerge.PNG)<br/>
+![fix git merge conflict push success](/assets/images/fixGitMergeConflictPushSuccess.PNG)<br/>
